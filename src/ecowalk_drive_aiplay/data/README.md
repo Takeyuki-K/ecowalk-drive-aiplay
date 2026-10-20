@@ -12,11 +12,13 @@
 
 |依存|固定コミット／バージョン|
 |---|---|
-|[k1-mp-ecowalk-game](https://github.com/Takeyuki-K/k1-mp-ecowalk-game)|`d1ef1562e463b5cfd0c97a8f24d1962b96c89357`|
+|[k1-mp-ecowalk-game](https://github.com/Takeyuki-K/k1-mp-ecowalk-game)|`1a4e9e747d8c71e5200c7badf91944c090a6883d`|
 |ゲームのvendor/k1-mp-ecowalk-public|`04b1c0fded94dcde76411e6bd9d914a56d41102a`|
 |ゲームのvendor/k1-mp-ecowalk-teleop|`a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea`|
 |MuJoCo / NumPy / Torch CPU|3.15.0 / 2.2.6 / 2.14.1+cpu|
 |Pillow / GLFW / PyOpenGL|12.3.0 / 2.10.2 / 3.1.10|
+
+ゲームの著者名匿名化に伴う履歴書き換えで固定コミットを更新しました。新旧コミットのGit Treeは同一です。過去の記録の旧SHAは保持しています。[新旧SHAの対応と検証記録](docs/game-commit-migration.md)を参照してください。
 
 ゲームの固定コミットのREADMEに従って利用者が依存を事前準備してください。既存checkoutへのpullやインストールをコントローラは実行しません。別PCへのゲーム依存の全wheel取得は未検証です。[依存の固定範囲](locks/README.md) に詳細があります。
 

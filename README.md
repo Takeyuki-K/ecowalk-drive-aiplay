@@ -46,10 +46,12 @@ ROSや追加学習は不要です。Windows・macOSでの動作は未検証で�
 | 役割 | リポジトリ | 動作確認済みの版 |
 |---|---|---|
 | AI Playコントローラー | [ecowalk-drive-aiplay](https://github.com/Takeyuki-K/ecowalk-drive-aiplay) | 0.2.0 / `9506aed572c12fa5fa56a5e76cb14bf6398a186b`の実装 |
-| ecowalk-drive!!（ゲーム） | [k1-mp-ecowalk-game](https://github.com/Takeyuki-K/k1-mp-ecowalk-game) | `d1ef1562e463b5cfd0c97a8f24d1962b96c89357` |
+| ecowalk-drive!!（ゲーム） | [k1-mp-ecowalk-game](https://github.com/Takeyuki-K/k1-mp-ecowalk-game) | `1a4e9e747d8c71e5200c7badf91944c090a6883d` |
 | K1歩行ポリシー | [k1-mp-ecowalk-public](https://github.com/Takeyuki-K/k1-mp-ecowalk-public) | `04b1c0fded94dcde76411e6bd9d914a56d41102a` / v5.6.3 |
 
 **ecowalk-drive!!** は [k1-mp-ecowalk-teleop](https://github.com/Takeyuki-K/k1-mp-ecowalk-teleop)（`a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea`）も使用します。歩行ポリシーとteleopは `k1-mp-ecowalk-game/vendor/` に配置します。
+
+ゲームの著者名匿名化に伴う履歴書き換えにより、固定コミットを更新しました。新旧コミットのファイル内容（Git Tree）は同一です。過去の実験・環境記録に残る旧SHAは実行当時の値として保持しています。[新旧SHAの対応と検証記録](docs/game-commit-migration.md)を参照してください。
 
 Privateリポジトリの取得にはGitHubのアクセス権が必要です。ライセンスは権利者確認中のため、`LICENSE`と`THIRD_PARTY_NOTICES.md`を確認してください。
 
@@ -69,7 +71,7 @@ unset PYTHONPATH PYTHONHOME
 
 git clone https://github.com/Takeyuki-K/ecowalk-drive-aiplay.git
 git clone https://github.com/Takeyuki-K/k1-mp-ecowalk-game.git
-git -C k1-mp-ecowalk-game checkout --detach d1ef1562e463b5cfd0c97a8f24d1962b96c89357
+git -C k1-mp-ecowalk-game checkout --detach 1a4e9e747d8c71e5200c7badf91944c090a6883d
 
 mkdir -p k1-mp-ecowalk-game/vendor
 git clone https://github.com/Takeyuki-K/k1-mp-ecowalk-public.git k1-mp-ecowalk-game/vendor/k1-mp-ecowalk-public

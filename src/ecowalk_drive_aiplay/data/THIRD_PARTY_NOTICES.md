@@ -12,4 +12,6 @@
 
 [Apache-2.0公式本文](https://www.apache.org/licenses/LICENSE-2.0) §4に基づき、Apache対象を再配布する場合はライセンス本文、帰属・NOTICE、変更表示を保持する。ライブラリ、フォント、モデル、コンテナ等を追加同梱する場合は、実際に同梱する版の個別条件を改めて確認する。本一覧は推移的依存全件のSBOMではない。
 
-外部依存の詳細な帰属の出典：[ゲーム固定版の第三者表示](https://github.com/Takeyuki-K/k1-mp-ecowalk-game/blob/d1ef1562e463b5cfd0c97a8f24d1962b96c89357/THIRD_PARTY_LICENSES.md)。本パッケージはROBOTIS公認を意味しない。
+2026-10-20追記：上記の確認時点の旧commitは履歴として保持しています。著者名匿名化後の固定commitは `1a4e9e747d8c71e5200c7badf91944c090a6883d` です。新旧Git Treeは同一です。[対応表](docs/game-commit-migration.md)を参照してください。
+
+外部依存の詳細な帰属の出典：[ゲーム固定版の第三者表示](https://github.com/Takeyuki-K/k1-mp-ecowalk-game/blob/1a4e9e747d8c71e5200c7badf91944c090a6883d/THIRD_PARTY_LICENSES.md)。本パッケージはROBOTIS公認を意味しない。

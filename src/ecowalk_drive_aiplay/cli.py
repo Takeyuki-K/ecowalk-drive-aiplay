@@ -12,7 +12,7 @@ from .game_client import Client
 from .provenance import environment, external, sha
 from .recording import create_session, write_json
 
-EXPECTED={'game':'d1ef1562e463b5cfd0c97a8f24d1962b96c89357','public':'04b1c0fded94dcde76411e6bd9d914a56d41102a','teleop':'a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea'}
+EXPECTED={'game':'1a4e9e747d8c71e5200c7badf91944c090a6883d','public':'04b1c0fded94dcde76411e6bd9d914a56d41102a','teleop':'a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea'}
 
 def launch(session,cfg,args):
     from .server import Controller, serve
