@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "seen",
+    "note",
+    "points",
+    "speed"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "seen": {
+      "type": "string",
+      "minLength": 1
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10000
+    },
+    "points": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2048,
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "speed": {
+      "type": "number",
+      "minimum": 0.001,
+      "maximum": 1.5
+    },
+    "lookahead": {
+      "type": "number",
+      "minimum": 0.05,
+      "maximum": 5
+    },
+    "corridor": {
+      "type": "number",
+      "minimum": 0.01,
+      "maximum": 5
+    },
+    "lease": {
+      "type": "number",
+      "minimum": 0.001,
+      "maximum": 180
+    },
+    "expected_route_id": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "image_use": {
+      "enum": [
+        "model_viewed",
+        "automated_reference"
+      ]
+    },
+    "model_identity": {
+      "type": "string"
+    },
+    "tuning": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "corner_floor": {
+          "type": "number",
+          "minimum": 0.01,
+          "maximum": 1
+        },
+        "corner_divisor": {
+          "type": "number",
+          "minimum": 0.01,
+          "maximum": 1000
+        },
+        "slow_distance": {
+          "type": "number",
+          "minimum": 0.01,
+          "maximum": 20
+        },
+        "end_base": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1.5
+        },
+        "end_gain": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        }
+      }
+    }
+  }
+}

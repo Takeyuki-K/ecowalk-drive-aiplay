@@ -1,0 +1,33 @@
+{
+  "complete_nine": true,
+  "all_finished": true,
+  "zero_collisions": true,
+  "zero_falls": true,
+  "stop_ack": true,
+  "original_results_verified": true,
+  "no_recorded_failures": true,
+  "stages": {
+    "1": {
+      "wh_relative": 0.0021127170889523317,
+      "time_relative": -0.0009242144177449285,
+      "wh_within_5pct": true,
+      "time_within_10pct": true,
+      "mean_hz_18_to_22": true
+    },
+    "2": {
+      "wh_relative": 0.00026775004005785696,
+      "time_relative": -0.001796407185629012,
+      "wh_within_5pct": true,
+      "time_within_10pct": true,
+      "mean_hz_18_to_22": true
+    },
+    "3": {
+      "wh_relative": -0.00022190461255378047,
+      "time_relative": -0.002941176470588669,
+      "wh_within_5pct": true,
+      "time_within_10pct": true,
+      "mean_hz_18_to_22": true
+    }
+  },
+  "primary_pass": true
+}

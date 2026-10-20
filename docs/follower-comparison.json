@@ -1,0 +1,12 @@
+{
+  "trials": 25,
+  "pose_samples": 14417,
+  "mismatches": [],
+  "max_command_difference": 0,
+  "reasons": {
+    "tracking": 14392,
+    "goal_neutral": 25
+  },
+  "original_sha256": "f07499a1d0eced5f0d4baac6a9a7fd13c4778247a15b069fd8677a93f1c37d55",
+  "time_note": "Identical inputs to old/new: wall=request timestamp; dt=clipped request delta. E11 exact loop entry timestamp unavailable; not equivalence to historical sent commands."
+}

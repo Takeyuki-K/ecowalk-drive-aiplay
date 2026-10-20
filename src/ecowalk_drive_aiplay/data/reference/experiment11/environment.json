@@ -1,0 +1,1495 @@
+{
+  "recorded_wall": 1791963533.266103,
+  "game_commit": "d1ef1562e463b5cfd0c97a8f24d1962b96c89357",
+  "git_status": "",
+  "branch": "main",
+  "PR3_PR4": "Both merge commits are ancestors of HEAD; resultGrade in web/game.js verified",
+  "dependencies": [
+    {
+      "name": "absl-py",
+      "version": "2.5.0"
+    },
+    {
+      "name": "action-msgs",
+      "version": "1.2.2"
+    },
+    {
+      "name": "action-tutorials-interfaces",
+      "version": "0.20.5"
+    },
+    {
+      "name": "action-tutorials-py",
+      "version": "0.20.5"
+    },
+    {
+      "name": "actionlib-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "ament-cmake-test",
+      "version": "1.3.12"
+    },
+    {
+      "name": "ament-copyright",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-cppcheck",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-cpplint",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-flake8",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-index-python",
+      "version": "1.4.0"
+    },
+    {
+      "name": "ament-lint",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-lint-cmake",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-package",
+      "version": "0.14.1"
+    },
+    {
+      "name": "ament-pep257",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-uncrustify",
+      "version": "0.12.14"
+    },
+    {
+      "name": "ament-xmllint",
+      "version": "0.12.14"
+    },
+    {
+      "name": "angles",
+      "version": "1.15.0"
+    },
+    {
+      "name": "apriltag-msgs",
+      "version": "2.0.1"
+    },
+    {
+      "name": "bond",
+      "version": "4.1.2"
+    },
+    {
+      "name": "builtin-interfaces",
+      "version": "1.2.2"
+    },
+    {
+      "name": "camera-calibration",
+      "version": "3.0.8"
+    },
+    {
+      "name": "composition-interfaces",
+      "version": "1.2.2"
+    },
+    {
+      "name": "control-msgs",
+      "version": "4.8.0"
+    },
+    {
+      "name": "controller-manager",
+      "version": "2.52.0"
+    },
+    {
+      "name": "controller-manager-msgs",
+      "version": "2.52.0"
+    },
+    {
+      "name": "cv-bridge",
+      "version": "3.2.1"
+    },
+    {
+      "name": "demo-nodes-py",
+      "version": "0.20.5"
+    },
+    {
+      "name": "diagnostic-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "diagnostic-updater",
+      "version": "4.0.6"
+    },
+    {
+      "name": "domain-coordinator",
+      "version": "0.10.0"
+    },
+    {
+      "name": "dwb-msgs",
+      "version": "1.1.18"
+    },
+    {
+      "name": "etils",
+      "version": "1.13.0"
+    },
+    {
+      "name": "example-interfaces",
+      "version": "0.9.3"
+    },
+    {
+      "name": "examples-rclpy-executors",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-action-client",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-action-server",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-client",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-publisher",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-service",
+      "version": "0.15.4"
+    },
+    {
+      "name": "examples-rclpy-minimal-subscriber",
+      "version": "0.15.4"
+    },
+    {
+      "name": "exceptiongroup",
+      "version": "1.3.1"
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.3"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0"
+    },
+    {
+      "name": "generate-parameter-library-py",
+      "version": "0.6.0"
+    },
+    {
+      "name": "geometry-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "glfw",
+      "version": "2.10.2"
+    },
+    {
+      "name": "image-geometry",
+      "version": "3.2.1"
+    },
+    {
+      "name": "importlib_resources",
+      "version": "7.1.0"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "interactive-markers",
+      "version": "2.3.2"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "joint-state-publisher",
+      "version": "2.4.0"
+    },
+    {
+      "name": "k1-ecowalk-game",
+      "version": "0.3.0",
+      "editable_project_location": "<GAME_ROOT>"
+    },
+    {
+      "name": "laser-geometry",
+      "version": "2.4.0"
+    },
+    {
+      "name": "launch",
+      "version": "1.0.10"
+    },
+    {
+      "name": "launch-ros",
+      "version": "0.19.12"
+    },
+    {
+      "name": "launch-testing",
+      "version": "1.0.10"
+    },
+    {
+      "name": "launch-testing-ros",
+      "version": "0.19.12"
+    },
+    {
+      "name": "launch-xml",
+      "version": "1.0.10"
+    },
+    {
+      "name": "launch-yaml",
+      "version": "1.0.10"
+    },
+    {
+      "name": "lifecycle-msgs",
+      "version": "1.2.2"
+    },
+    {
+      "name": "logging-demo",
+      "version": "0.20.5"
+    },
+    {
+      "name": "map-msgs",
+      "version": "2.1.0"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    {
+      "name": "message-filters",
+      "version": "4.3.8"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "name": "mujoco",
+      "version": "3.15.0"
+    },
+    {
+      "name": "nav-2d-msgs",
+      "version": "1.1.18"
+    },
+    {
+      "name": "nav-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "nav2-common",
+      "version": "1.1.18"
+    },
+    {
+      "name": "nav2-msgs",
+      "version": "1.1.18"
+    },
+    {
+      "name": "nav2-simple-commander",
+      "version": "1.0.0"
+    },
+    {
+      "name": "networkx",
+      "version": "3.4.2"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6"
+    },
+    {
+      "name": "osrf-pycommon",
+      "version": "2.1.6"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pcl-msgs",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pendulum-msgs",
+      "version": "0.20.5"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "PyOpenGL",
+      "version": "3.1.10"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    {
+      "name": "python-qt-binding",
+      "version": "1.1.2"
+    },
+    {
+      "name": "qt-dotgraph",
+      "version": "2.2.4"
+    },
+    {
+      "name": "qt-gui",
+      "version": "2.2.4"
+    },
+    {
+      "name": "qt-gui-cpp",
+      "version": "2.2.4"
+    },
+    {
+      "name": "qt-gui-py-common",
+      "version": "2.2.4"
+    },
+    {
+      "name": "quality-of-service-demo-py",
+      "version": "0.20.5"
+    },
+    {
+      "name": "rcl-interfaces",
+      "version": "1.2.2"
+    },
+    {
+      "name": "rclpy",
+      "version": "3.3.17"
+    },
+    {
+      "name": "rcutils",
+      "version": "5.1.7"
+    },
+    {
+      "name": "resource-retriever",
+      "version": "3.1.3"
+    },
+    {
+      "name": "rmw-dds-common",
+      "version": "1.6.0"
+    },
+    {
+      "name": "ros2action",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2bag",
+      "version": "0.15.15"
+    },
+    {
+      "name": "ros2cli",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2component",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2controlcli",
+      "version": "2.52.0"
+    },
+    {
+      "name": "ros2doctor",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2interface",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2launch",
+      "version": "0.19.12"
+    },
+    {
+      "name": "ros2lifecycle",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2multicast",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2node",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2param",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2pkg",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2run",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2service",
+      "version": "0.18.14"
+    },
+    {
+      "name": "ros2topic",
+      "version": "0.18.14"
+    },
+    {
+      "name": "rosapi",
+      "version": "2.0.4"
+    },
+    {
+      "name": "rosapi-msgs",
+      "version": "2.0.4"
+    },
+    {
+      "name": "rosbag2-interfaces",
+      "version": "0.15.15"
+    },
+    {
+      "name": "rosbag2-py",
+      "version": "0.15.15"
+    },
+    {
+      "name": "rosbridge-library",
+      "version": "2.0.4"
+    },
+    {
+      "name": "rosbridge-msgs",
+      "version": "2.0.4"
+    },
+    {
+      "name": "rosbridge-server",
+      "version": "2.0.4"
+    },
+    {
+      "name": "rosgraph-msgs",
+      "version": "1.2.2"
+    },
+    {
+      "name": "rosidl-adapter",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-cli",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-cmake",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-generator-c",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-generator-cpp",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-generator-py",
+      "version": "0.14.5"
+    },
+    {
+      "name": "rosidl-parser",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-runtime-py",
+      "version": "0.9.3"
+    },
+    {
+      "name": "rosidl-typesupport-c",
+      "version": "2.0.2"
+    },
+    {
+      "name": "rosidl-typesupport-cpp",
+      "version": "2.0.2"
+    },
+    {
+      "name": "rosidl-typesupport-fastrtps-c",
+      "version": "2.2.2"
+    },
+    {
+      "name": "rosidl-typesupport-fastrtps-cpp",
+      "version": "2.2.2"
+    },
+    {
+      "name": "rosidl-typesupport-introspection-c",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rosidl-typesupport-introspection-cpp",
+      "version": "3.1.7"
+    },
+    {
+      "name": "rpyutils",
+      "version": "0.2.1"
+    },
+    {
+      "name": "rqt-action",
+      "version": "2.0.1"
+    },
+    {
+      "name": "rqt-bag",
+      "version": "1.1.5"
+    },
+    {
+      "name": "rqt-bag-plugins",
+      "version": "1.1.5"
+    },
+    {
+      "name": "rqt-console",
+      "version": "2.0.3"
+    },
+    {
+      "name": "rqt-graph",
+      "version": "1.3.1"
+    },
+    {
+      "name": "rqt-gui",
+      "version": "1.1.7"
+    },
+    {
+      "name": "rqt-gui-py",
+      "version": "1.1.7"
+    },
+    {
+      "name": "rqt-msg",
+      "version": "1.2.0"
+    },
+    {
+      "name": "rqt-plot",
+      "version": "1.1.5"
+    },
+    {
+      "name": "rqt-publisher",
+      "version": "1.5.0"
+    },
+    {
+      "name": "rqt-py-common",
+      "version": "1.1.7"
+    },
+    {
+      "name": "rqt-py-console",
+      "version": "1.0.2"
+    },
+    {
+      "name": "rqt-reconfigure",
+      "version": "1.1.2"
+    },
+    {
+      "name": "rqt-service-caller",
+      "version": "1.0.5"
+    },
+    {
+      "name": "rqt-shell",
+      "version": "1.0.2"
+    },
+    {
+      "name": "rqt-srv",
+      "version": "1.0.3"
+    },
+    {
+      "name": "rqt-topic",
+      "version": "1.5.0"
+    },
+    {
+      "name": "sensor-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "sensor-msgs-py",
+      "version": "4.9.0"
+    },
+    {
+      "name": "setuptools",
+      "version": "78.1.0"
+    },
+    {
+      "name": "shape-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "sick-safetyscanners2-interfaces",
+      "version": "1.0.0"
+    },
+    {
+      "name": "slam-toolbox",
+      "version": "2.6.10"
+    },
+    {
+      "name": "smclib",
+      "version": "4.1.2"
+    },
+    {
+      "name": "sros2",
+      "version": "0.10.7"
+    },
+    {
+      "name": "statistics-msgs",
+      "version": "1.2.2"
+    },
+    {
+      "name": "std-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "std-srvs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "stereo-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    {
+      "name": "teleop-twist-keyboard",
+      "version": "2.4.0"
+    },
+    {
+      "name": "tf2-geometry-msgs",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-kdl",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-msgs",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-py",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-ros-py",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-sensor-msgs",
+      "version": "0.25.16"
+    },
+    {
+      "name": "tf2-tools",
+      "version": "0.25.16"
+    },
+    {
+      "name": "theora-image-transport",
+      "version": "2.5.4"
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0"
+    },
+    {
+      "name": "topic-monitor",
+      "version": "0.20.5"
+    },
+    {
+      "name": "torch",
+      "version": "2.14.1+cpu"
+    },
+    {
+      "name": "trajectory-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "turtlesim",
+      "version": "1.4.2"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "unique-identifier-msgs",
+      "version": "2.2.1"
+    },
+    {
+      "name": "visualization-msgs",
+      "version": "4.9.0"
+    },
+    {
+      "name": "websockets",
+      "version": "16.1.1"
+    },
+    {
+      "name": "xacro",
+      "version": "2.1.1"
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.1"
+    }
+  ],
+  "policy": "v5.6.3",
+  "rules": "ecowalk-game-3",
+  "seed": 5,
+  "physics_dt": 0.005,
+  "model_identity": "User requested Astra High; backend model ID and reasoning setting not independently verified",
+  "protection_files": 112696,
+  "protection": "SHA256 for entire game including vendor and venv; historical media size+mtime, historical code/json/csv/md SHA256",
+  "rank_thresholds": {
+    "1,2": [
+      2000,
+      1800,
+      1500,
+      1000
+    ],
+    "3": [
+      1700,
+      1500,
+      1200,
+      900
+    ]
+  },
+  "collision_penalty": "one rank for any positive collision count; failed D",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "experiment_python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "game_metadata": {
+    "stage": 3,
+    "policy": "v5.6.3",
+    "public_commit": "04b1c0fded94dcde76411e6bd9d914a56d41102a",
+    "teleop_commit": "a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea",
+    "rules": "ecowalk-game-3",
+    "course": {
+      "title": "S-CURVE",
+      "length": 28.0,
+      "goal": [
+        28.0,
+        0.0
+      ],
+      "goal_half_size": [
+        0.75,
+        1.0
+      ],
+      "obstacles": [],
+      "walls": [
+        [
+          -2.0,
+          2.59,
+          -1.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          -1.0,
+          2.59,
+          0.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          0.0,
+          2.59,
+          1.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          1.0,
+          2.59,
+          2.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          2.0,
+          2.59,
+          3.0,
+          2.7521567892700567,
+          0.18,
+          1.6
+        ],
+        [
+          3.0,
+          2.7521567892700567,
+          4.0,
+          3.2111657082460496,
+          0.18,
+          1.6
+        ],
+        [
+          4.0,
+          3.2111657082460496,
+          5.0,
+          3.8888706403508726,
+          0.18,
+          1.6
+        ],
+        [
+          5.0,
+          3.8888706403508726,
+          6.0,
+          4.668460969082652,
+          0.18,
+          1.6
+        ],
+        [
+          6.0,
+          4.668460969082652,
+          7.0,
+          5.41248825437518,
+          0.18,
+          1.6
+        ],
+        [
+          7.0,
+          5.41248825437518,
+          8.0,
+          5.9841125496954275,
+          0.18,
+          1.6
+        ],
+        [
+          8.0,
+          5.9841125496954275,
+          9.0,
+          6.268338307648017,
+          0.18,
+          1.6
+        ],
+        [
+          9.0,
+          6.268338307648017,
+          10.0,
+          6.1899999999999995,
+          0.18,
+          1.6
+        ],
+        [
+          10.0,
+          6.1899999999999995,
+          11.0,
+          5.725751115703304,
+          0.18,
+          1.6
+        ],
+        [
+          11.0,
+          5.725751115703304,
+          12.0,
+          4.908221983093764,
+          0.18,
+          1.6
+        ],
+        [
+          12.0,
+          4.908221983093764,
+          13.0,
+          3.82170309900434,
+          0.18,
+          1.6
+        ],
+        [
+          13.0,
+          3.82170309900434,
+          14.0,
+          2.5900000000000003,
+          0.18,
+          1.6
+        ],
+        [
+          14.0,
+          2.5900000000000003,
+          15.0,
+          1.3582969009956625,
+          0.18,
+          1.6
+        ],
+        [
+          15.0,
+          1.3582969009956625,
+          16.0,
+          0.2717780169062354,
+          0.18,
+          1.6
+        ],
+        [
+          16.0,
+          0.2717780169062354,
+          17.0,
+          -0.5457511157033035,
+          0.18,
+          1.6
+        ],
+        [
+          17.0,
+          -0.5457511157033035,
+          18.0,
+          -1.0099999999999993,
+          0.18,
+          1.6
+        ],
+        [
+          18.0,
+          -1.0099999999999993,
+          19.0,
+          -1.088338307648018,
+          0.18,
+          1.6
+        ],
+        [
+          19.0,
+          -1.088338307648018,
+          20.0,
+          -0.8041125496954282,
+          0.18,
+          1.6
+        ],
+        [
+          20.0,
+          -0.8041125496954282,
+          21.0,
+          -0.2324882543751814,
+          0.18,
+          1.6
+        ],
+        [
+          21.0,
+          -0.2324882543751814,
+          22.0,
+          0.5115390309173478,
+          0.18,
+          1.6
+        ],
+        [
+          22.0,
+          0.5115390309173478,
+          23.0,
+          1.2911293596491265,
+          0.18,
+          1.6
+        ],
+        [
+          23.0,
+          1.2911293596491265,
+          24.0,
+          1.9688342917539488,
+          0.18,
+          1.6
+        ],
+        [
+          24.0,
+          1.9688342917539488,
+          25.0,
+          2.427843210729943,
+          0.18,
+          1.6
+        ],
+        [
+          25.0,
+          2.427843210729943,
+          26.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          26.0,
+          2.59,
+          27.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          27.0,
+          2.59,
+          28.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          28.0,
+          2.59,
+          29.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          29.0,
+          2.59,
+          30.0,
+          2.59,
+          0.18,
+          1.6
+        ],
+        [
+          -2.0,
+          -2.59,
+          -1.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          -1.0,
+          -2.59,
+          0.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          0.0,
+          -2.59,
+          1.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          1.0,
+          -2.59,
+          2.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          2.0,
+          -2.59,
+          3.0,
+          -2.427843210729943,
+          0.18,
+          1.6
+        ],
+        [
+          3.0,
+          -2.427843210729943,
+          4.0,
+          -1.96883429175395,
+          0.18,
+          1.6
+        ],
+        [
+          4.0,
+          -1.96883429175395,
+          5.0,
+          -1.2911293596491273,
+          0.18,
+          1.6
+        ],
+        [
+          5.0,
+          -1.2911293596491273,
+          6.0,
+          -0.5115390309173478,
+          0.18,
+          1.6
+        ],
+        [
+          6.0,
+          -0.5115390309173478,
+          7.0,
+          0.23248825437518006,
+          0.18,
+          1.6
+        ],
+        [
+          7.0,
+          0.23248825437518006,
+          8.0,
+          0.8041125496954278,
+          0.18,
+          1.6
+        ],
+        [
+          8.0,
+          0.8041125496954278,
+          9.0,
+          1.088338307648018,
+          0.18,
+          1.6
+        ],
+        [
+          9.0,
+          1.088338307648018,
+          10.0,
+          1.0100000000000002,
+          0.18,
+          1.6
+        ],
+        [
+          10.0,
+          1.0100000000000002,
+          11.0,
+          0.5457511157033039,
+          0.18,
+          1.6
+        ],
+        [
+          11.0,
+          0.5457511157033039,
+          12.0,
+          -0.27177801690623626,
+          0.18,
+          1.6
+        ],
+        [
+          12.0,
+          -0.27177801690623626,
+          13.0,
+          -1.3582969009956594,
+          0.18,
+          1.6
+        ],
+        [
+          13.0,
+          -1.3582969009956594,
+          14.0,
+          -2.5899999999999994,
+          0.18,
+          1.6
+        ],
+        [
+          14.0,
+          -2.5899999999999994,
+          15.0,
+          -3.8217030990043375,
+          0.18,
+          1.6
+        ],
+        [
+          15.0,
+          -3.8217030990043375,
+          16.0,
+          -4.908221983093764,
+          0.18,
+          1.6
+        ],
+        [
+          16.0,
+          -4.908221983093764,
+          17.0,
+          -5.725751115703304,
+          0.18,
+          1.6
+        ],
+        [
+          17.0,
+          -5.725751115703304,
+          18.0,
+          -6.1899999999999995,
+          0.18,
+          1.6
+        ],
+        [
+          18.0,
+          -6.1899999999999995,
+          19.0,
+          -6.268338307648017,
+          0.18,
+          1.6
+        ],
+        [
+          19.0,
+          -6.268338307648017,
+          20.0,
+          -5.984112549695428,
+          0.18,
+          1.6
+        ],
+        [
+          20.0,
+          -5.984112549695428,
+          21.0,
+          -5.412488254375181,
+          0.18,
+          1.6
+        ],
+        [
+          21.0,
+          -5.412488254375181,
+          22.0,
+          -4.668460969082652,
+          0.18,
+          1.6
+        ],
+        [
+          22.0,
+          -4.668460969082652,
+          23.0,
+          -3.8888706403508735,
+          0.18,
+          1.6
+        ],
+        [
+          23.0,
+          -3.8888706403508735,
+          24.0,
+          -3.211165708246051,
+          0.18,
+          1.6
+        ],
+        [
+          24.0,
+          -3.211165708246051,
+          25.0,
+          -2.7521567892700567,
+          0.18,
+          1.6
+        ],
+        [
+          25.0,
+          -2.7521567892700567,
+          26.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          26.0,
+          -2.59,
+          27.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          27.0,
+          -2.59,
+          28.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          28.0,
+          -2.59,
+          29.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          29.0,
+          -2.59,
+          30.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          -2.0,
+          2.59,
+          -2.0,
+          -2.59,
+          0.18,
+          1.6
+        ],
+        [
+          30.0,
+          2.59,
+          30.0,
+          -2.59,
+          0.18,
+          1.6
+        ]
+      ],
+      "centerline": [
+        [
+          -2.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.16215678927005672
+        ],
+        [
+          4.0,
+          0.6211657082460497
+        ],
+        [
+          5.0,
+          1.2988706403508725
+        ],
+        [
+          6.0,
+          2.078460969082652
+        ],
+        [
+          7.0,
+          2.82248825437518
+        ],
+        [
+          8.0,
+          3.3941125496954276
+        ],
+        [
+          9.0,
+          3.678338307648018
+        ],
+        [
+          10.0,
+          3.6
+        ],
+        [
+          11.0,
+          3.135751115703304
+        ],
+        [
+          12.0,
+          2.3182219830937636
+        ],
+        [
+          13.0,
+          1.2317030990043405
+        ],
+        [
+          14.0,
+          5.878304635907295e-16
+        ],
+        [
+          15.0,
+          -1.2317030990043374
+        ],
+        [
+          16.0,
+          -2.3182219830937645
+        ],
+        [
+          17.0,
+          -3.1357511157033033
+        ],
+        [
+          18.0,
+          -3.599999999999999
+        ],
+        [
+          19.0,
+          -3.678338307648018
+        ],
+        [
+          20.0,
+          -3.394112549695428
+        ],
+        [
+          21.0,
+          -2.8224882543751812
+        ],
+        [
+          22.0,
+          -2.078460969082652
+        ],
+        [
+          23.0,
+          -1.2988706403508734
+        ],
+        [
+          24.0,
+          -0.621165708246051
+        ],
+        [
+          25.0,
+          -0.1621567892700567
+        ],
+        [
+          26.0,
+          -1.4397693913553833e-31
+        ],
+        [
+          27.0,
+          -1.4397693913553833e-31
+        ],
+        [
+          28.0,
+          -1.4397693913553833e-31
+        ],
+        [
+          29.0,
+          -1.4397693913553833e-31
+        ],
+        [
+          30.0,
+          -1.4397693913553833e-31
+        ]
+      ],
+      "corridor_half_width": 2.5,
+      "bounds": [
+        -2.0,
+        30.0,
+        -6.3,
+        6.3
+      ]
+    },
+    "battery_wh": 400.0,
+    "usable_fraction": 0.8,
+    "auxiliary_w": 0.0,
+    "physics_dt": 0.005,
+    "seed": 5,
+    "mujoco_version": "3.15.0",
+    "numpy_version": "2.2.6",
+    "torch_version": "2.14.1+cpu",
+    "power_model": "sum(tau^2/Km^2 + max(tau*qd,0)); no regeneration; all 23 motors"
+  },
+  "game_vs_experiment10_changed_files": [
+    "README.md",
+    "k1_ecowalk_game/web/game.js",
+    "k1_ecowalk_game/web/index.html",
+    "k1_ecowalk_game/web/style.css",
+    "tests/test_ui.cjs"
+  ],
+  "game_physics_policy_scoring_changed": false,
+  "video_tools": {
+    "ffmpeg": "7.0.2-static",
+    "imageio_ffmpeg": "0.6.0",
+    "Pillow": "12.3.0"
+  },
+  "experiment_trials_completed_wall": 1791964838.4667711,
+  "browser": "Google Chrome 153.0.8010.47",
+  "node": "24.21.0",
+  "total_trials": 25,
+  "baseline_trials": 3,
+  "optimization_trials": 13,
+  "final_trials": 9,
+  "validation_completed_wall": 1791965079.0715199
+}

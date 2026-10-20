@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "image_id",
+    "source_image",
+    "raw_image",
+    "image_received_wall",
+    "state_received_wall",
+    "sim",
+    "course",
+    "result"
+  ],
+  "properties": {
+    "image_id": {
+      "type": "string"
+    },
+    "image_received_wall": {
+      "type": "number"
+    },
+    "state_received_wall": {
+      "type": "number"
+    }
+  }
+}

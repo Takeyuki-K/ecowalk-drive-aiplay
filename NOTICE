@@ -1,0 +1,5 @@
+ecowalk-drive-aiplay
+Implementation requested by the workspace user; migrated from experiment 11 runtime code.
+navigation.py is byte-identical; display.py changes font resolution; lifecycle, transport and recording are refactored.
+Distribution license is pending confirmation of the experiment-code rights holder; see LICENSE.
+External games, policies, models, fonts and libraries are not bundled.

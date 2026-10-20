@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ecowalk-drive-aiplay"
+version = "0.2.0"
+readme = "README.md"
+description = "Experiment 11 external spatial path controller for EcoWalk Drive"
+requires-python = ">=3.10"
+dependencies = ["Pillow==12.3.0"]
+[project.scripts]
+ecowalk-aiplay = "ecowalk_drive_aiplay.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+ecowalk_drive_aiplay = ["data/**/*.json", "data/**/*.md", "data/LICENSE", "data/NOTICE"]

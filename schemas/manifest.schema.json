@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "python",
+    "platform",
+    "dependencies",
+    "runtime",
+    "source_sha256",
+    "external"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "wheel_build": true,
+  "isolated_target_install": true,
+  "working_directory_outside_source": true,
+  "bundled_nine_routes_verified": true,
+  "bundled_prompt_and_protocol": true,
+  "unchanged_navigation_hash": true,
+  "external_session_creation": true,
+  "empty_report_not_success": true,
+  "installed_package_unchanged": true,
+  "dependency_installation": "--no-deps; existing prepared Pillow used; fresh dependency download not tested"
+}
