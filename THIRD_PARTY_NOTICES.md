@@ -2,7 +2,7 @@
 
 確認日：2026-10-19。ゲーム・policy・モデル・フォント・外部ライブラリのバイナリを同梱していません。
 
-- 移植元：実験11直下のcontroller/navigation.py（バイト同一）、display.py（フォント解決のみ変更）、controller.py/trial.py/batch.pyの制御・展開仕様。source-manifest.jsonに元ファイルSHA256を保存。original10は使用していません。独立成果物の配布ライセンスはLICENSEに確認状態を記載。
+- 移植元：実験11直下のcontroller/navigation.py（バイト同一）、display.py（フォント解決のみ変更）、controller.py/trial.py/batch.pyの制御・展開仕様。source-manifest.jsonに元ファイルSHA256を保存。original10は使用していません。実験11のコードはプロジェクト権利者の許諾に基づき、本パッケージのApache-2.0で配布します。元コードが参照した第三者コードの全件特定を保証するものではありません。
 - ゲーム：Takeyuki-K/k1-mp-ecowalk-game、Apache-2.0。固定commit d1ef1562e463b5cfd0c97a8f24d1962b96c89357 のLICENSE、NOTICE、THIRD_PARTY_LICENSES.mdをローカルで確認。
 - public：Takeyuki-K/k1-mp-ecowalk-public、固定commit 04b1c0fded94dcde76411e6bd9d914a56d41102a。コード・方策Apache-2.0。teleop：固定commit a5ea3dbf4f97501c18ff090f86ff4cd413f6aaea、Apache-2.0。
 - モデル出典ROBOTIS-GIT/ai_sapiens：Apache-2.0、元NOTICE_MODIFICATIONSを保持。
