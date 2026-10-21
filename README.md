@@ -53,7 +53,7 @@ ROSや追加学習は不要です。Windows・macOSでの動作は未検証で�
 
 ゲームの著者名匿名化に伴う履歴書き換えにより、固定コミットを更新しました。新旧コミットのファイル内容（Git Tree）は同一です。過去の実験・環境記録に残る旧SHAは実行当時の値として保持しています。[新旧SHAの対応と検証記録](docs/game-commit-migration.md)を参照してください。
 
-Privateリポジトリの取得にはGitHubのアクセス権が必要です。ライセンスは権利者確認中のため、`LICENSE`と`THIRD_PARTY_NOTICES.md`を確認してください。
+本パッケージのライセンスはApache-2.0です。第三者の個別条件は`THIRD_PARTY_NOTICES.md`を確認してください。リポジトリがPrivateの間は取得にGitHubのアクセス権が必要です。
 
 ### 4.2 新しい作業ディレクトリに取得する
 
