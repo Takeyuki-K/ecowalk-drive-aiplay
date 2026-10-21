@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 name = "ecowalk-drive-aiplay"
 version = "0.2.0"
 readme = "README.md"
-description = "Experiment 11 external spatial path controller for EcoWalk Drive"
+description = "External spatial path controller for ecowalk-drive!!"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
 requires-python = ">=3.10"
 dependencies = ["Pillow==12.3.0"]
 [project.scripts]
