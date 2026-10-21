@@ -108,7 +108,7 @@ session内に `manifest.json`（コード・依存・外部ファイルハッシ
 - 消費量はゲームの23モータ推定モデルです。PC電力・実機電池計測ではありません。
 - 別PC・Windows・macOS、完全なwheelハッシュlock、ブラウザごとの動画再生は未検証です。
 
-ライセンスの確認状況は [LICENSE](LICENSE) と [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照してください。
+本パッケージはApache-2.0で配布します。第三者の個別条件は [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照してください。
 
 ## 二視点動画とAstra AI Play検証
 
