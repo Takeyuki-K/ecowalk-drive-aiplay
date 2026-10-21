@@ -1,5 +1,11 @@
 ecowalk-drive-aiplay
-Implementation requested by the workspace user; migrated from experiment 11 runtime code.
-navigation.py is byte-identical; display.py changes font resolution; lifecycle, transport and recording are refactored.
-Distribution license is pending confirmation of the experiment-code rights holder; see LICENSE.
-External games, policies, models, fonts and libraries are not bundled.
+Copyright 2026 ecowalk-drive-aiplay contributors
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+This package adapts the project owner's experiment 11 runtime code:
+- navigation.py is byte-identical to the experiment 11 controller/navigation.py.
+- display.py adapts font resolution; lifecycle, transport, and recording were refactored.
+
+External game, walking policy, models, fonts, and third-party libraries are not bundled.
+See THIRD_PARTY_NOTICES.md for provenance and separate third-party license terms.
