@@ -12,6 +12,9 @@
 
 ## 2. Architecture — 上位AI・下位制御・歩行ポリシー
 
+![AI Playのシステム構成図](docs/images/ai-play-architecture.png)
+
+
 ```text
 Codex上のAstra
   一人称画像・標準上面マップ・MuJoCo自己位置・ゲーム状態を確認
